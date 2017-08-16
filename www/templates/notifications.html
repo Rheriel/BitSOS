@@ -1,0 +1,28 @@
+<ion-view title="Notifications" id="page3">
+  <ion-content padding="true" class="has-header">
+    <form id="notifications-form1" class="list">
+      <label class="item item-select" id="notifications-select1">
+        <span class="input-label">Ethereum</span>
+        <select></select>
+      </label>
+      <ion-toggle toggle-class="toggle-positive" id="notifications-toggle2">Off</ion-toggle>
+      <label class="item item-input" id="notifications-input2">
+        <span class="input-label">Avg. Min</span>
+        <input type="text" placeholder="">
+      </label>
+    </form>
+    <form id="notifications-form2" class="list">
+      <ion-toggle toggle-class="toggle-positive" ng-checked="true" id="notifications-toggle3">On</ion-toggle>
+      <label class="item item-input" id="notifications-input3">
+        <span class="input-label">Current Price</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="notifications-input4">
+        <span class="input-label">$ 4,800.00</span>
+        <input type="text" placeholder="">
+      </label>
+      <ion-radio id="notifications-radio5" name="action-radio">Auto-Purchase</ion-radio>
+      <ion-radio id="notifications-radio6" name="action-radio">Notify First</ion-radio>
+    </form>
+  </ion-content>
+</ion-view>
