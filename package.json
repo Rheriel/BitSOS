@@ -16,5 +16,19 @@
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [],
+  "dependencies": {
+    "@angular/core": "^4.3.5",
+    "@ionic-native/app-preferences": "^4.1.0",
+    "@ionic-native/core": "^4.1.0",
+    "@ionic-native/firebase": "^4.1.0",
+    "cordova-plugin-firebase": "^0.1.23",
+    "rxjs": "^5.4.3",
+    "zone.js": "^0.8.16"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-firebase": {}
+    }
+  }
 }
